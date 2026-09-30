@@ -1,0 +1,47 @@
+.jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 0;      
+    background-color: #FFC0D3;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+footer{
+    background-color:#524A4E;
+    color: #FFC0D3;
+    min-height: 120px;        
+    padding: 1rem 0;          
+    text-align: center;       
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+    align-items: center;          
+}
+
+footer a {
+  color: #FFC0D3;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.25s ease;
+}
+
+footer a:hover {
+  color: #FDEFF4;
+  text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: #FFC0D3;
+    font-weight: bold;
+}
+section{
+    padding-top: 5rem;
+}
+
+svg.wave {
+  display: block;
+  margin-bottom: -2px;   
+}

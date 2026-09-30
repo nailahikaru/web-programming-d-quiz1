@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+ font-family: "MatchaWorld";
+ src: local("MatchaWorld"),
+  url("/quiz1/font/Matcha World.ttf") format("truetype");
+ font-weight: normal;
+ font-style: normal;
+}
+
+.font-MatchaWorld {
+  font-family: 'MatchaWorld', cursive;
+}
+
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 0;      
+  background-color: #FFC0D3;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+#Profile .card {
+  width: 22rem;
+  flex-shrink: 0;
+}
+
+#Profile .info {
+  text-align: center;
+  /* margin-bottom: 20px; */
+}
+
+#Profile .nama{
+  display: inline-block;
+  color: #524A4E;
+  background-color: #FFC0D3;
+  padding: 20px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+
+#Profile .h2{
+  color: #524A4E;
+}
+
+#Profile .info p{
+  text-align: justify;
+}
+
+footer{
+    background-color:#524A4E;
+    color: #FFC0D3;
+    min-height: 120px;        
+    padding: 1rem 0;          
+    text-align: center;       
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  
+    align-items: center;          
+}
+
+footer a {
+  color: #FFC0D3;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.25s ease;
+}
+
+footer a:hover {
+  color: #FDEFF4;
+  text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: #FFC0D3;
+    font-weight: bold;
+}
+section{
+    padding-top: 5rem;
+}
+
+svg.wave {
+  display: block;
+  margin-bottom: -2px;   
+}
+
+.chiikawa {
+  cursor: pointer;
+  transition: transform 0.2s;
+  user-select: none;           
+}
+
+/* Animasi shake */
+@keyframes shake {
+  0%   { transform: translate(0, 0) }
+  10%  { transform: translate(-15px, 0) }
+  20%  { transform: translate(-30px, 0) }
+  30%  { transform: translate(-45px, 0) }
+  40%  { transform: translate(-60px, 0) }
+  50%  { transform: translate(-75px, 0) }
+  60%  { transform: translate(-90px, 0) }
+  70%  { transform: translate(-105px, 0) }
+  80%  { transform: translate(-120px, 0) }
+  90%  { transform: translate(-135px, 0) }
+  100% { transform: translate(-150px, 0) }
+}
+
+.chiikawa.shake {
+  animation: shake 0.5s ease-in-out;
+}
